@@ -1,7 +1,12 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FIX_TRADER.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IPADDRESS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">10.31.18.93</Value>
+    </Setting>
+    <Setting Name="PORT_PRICE" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10502</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

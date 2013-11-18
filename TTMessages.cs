@@ -28,7 +28,7 @@ namespace TT
                 //Gateway Status Request
                 QuickFix42.Message gsr = new QuickFix42.Message(new QuickFix.MsgType("UAR"));
                 
-                gsr.setChar(QuickFix.SubscriptionRequestType.FIELD, (sbyte)SubscriptionRequestType);
+                gsr.setChar(QuickFix.SubscriptionRequestType.FIELD, SubscriptionRequestType);
 
                 gsr.setField(new TT.GatewayStatusReqId(uniqueID()));
 

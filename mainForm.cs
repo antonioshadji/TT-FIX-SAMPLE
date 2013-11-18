@@ -34,8 +34,9 @@ namespace FIX_TRADER
         private void main_Load(object sender, EventArgs e)
         {
             log.CreateLog(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.ToString(), this.listBox1);
-
+            
             this.Text += " v" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            log.WriteLog(this.Text);
             this.cbxGateways.Text = _gw;
             this.txtTicker.Text = _product;
             this.txtAccount.Text = _account;
@@ -47,7 +48,7 @@ namespace FIX_TRADER
                 _qf.registerFormController(log.WriteLog);
                 _qf.registerFormDataController(updateParameters);
 
-                _qf.initiate("ini.cfg", "12345678", true , this);
+                _qf.initiate("ini.cfg", "1", true , this);
 
             }
             catch (Exception ex)
@@ -134,7 +135,6 @@ namespace FIX_TRADER
             }
 
         }
-
 
         private void btnSecurityDefinitionRequest_Click(object sender, EventArgs e)
         {
