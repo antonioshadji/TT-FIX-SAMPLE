@@ -59,8 +59,10 @@ namespace FIX_TRADER
 
         private void main_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //log.CleanLog(3);
+            TT.SendMsg send = new TT.SendMsg();
+            send.ttLogout();
             log.CloseLog();
+            log.CleanLog(3);
         }
 
         private void account_TextChanged(object sender, EventArgs e)
