@@ -1,3 +1,6 @@
+# ignore quickfix library folder
+quickfix/
+
 #################
 ## Eclipse
 #################
