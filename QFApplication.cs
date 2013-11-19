@@ -195,7 +195,7 @@ namespace QuickFix
 
             public virtual void onLogout(QuickFix.SessionID sessionID)
             {
-                Console.WriteLine("onLogout: " + sessionID.toString());
+                Console.WriteLine("onLogout: " + sessionID.ToString());
 
                 if (!_initiator.isLoggedOn())
                 {
@@ -217,7 +217,7 @@ namespace QuickFix
                 QuickFix.MsgType mt = new QuickFix.MsgType();
                 message.getHeader().getField(mt);
 
-                if (mt.getValue() == QuickFix.MsgType.LOGON)
+                if (mt.getValue() == QuickFix.MsgType.Logon)
                 {
                     if (!_password.Equals(""))
                     {

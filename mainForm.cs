@@ -59,7 +59,7 @@ namespace FIX_TRADER
 
         private void main_FormClosing(object sender, FormClosingEventArgs e)
         {
-            log.CleanLog(3);
+            //log.CleanLog(3);
             log.CloseLog();
         }
 

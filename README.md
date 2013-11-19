@@ -7,5 +7,7 @@ The original version of this code was tested against [TT FIX Adapter](https://ww
 
 **TODO**
 - Refactor to use [QuickFix/n](http://www.quickfixn.org/) .NET FIX engine
-- Conform to latest production release TT FIX Adapter
 - Add functionality to demonstrate [Order Staging](https://www.tradingtechnologies.com/en/products/trading-analytics/xtrader/xtrader-orderstaging/)
+- ~~Conform to latest production release TT FIX Adapter~~
+-    Tested 11/19/2013 on TT FIX Adapter 7.8.10
+
