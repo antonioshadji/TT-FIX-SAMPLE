@@ -1,7 +1,7 @@
 TT-FIX-SAMPLE
 =============
 
-***This code is not in a working state as og 11/20/2013***
+***This code is not in a working state as of 11/20/2013***
 
 Sample application to demonstrate using QuickFix/n to connect to TT FIX Adapter
 
