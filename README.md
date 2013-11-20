@@ -6,7 +6,7 @@ TT-FIX-SAMPLE
 Sample application to demonstrate using QuickFix/n to connect to TT FIX Adapter
 
 **Requirements**  
-Connection to [TT FIX Adapter](https://www.tradingtechnologies.com/fix-adapter) 
+Connection to [TT FIX Adapter](https://www.tradingtechnologies.com/fix-adapter)  
 The [QuickFix/n](http://quickfixn.org) .NET FIX engine.
 
 
