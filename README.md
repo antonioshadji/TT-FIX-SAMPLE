@@ -1,9 +1,14 @@
 TT-FIX-SAMPLE
 =============
 
+***This code is not in a working state as og 11/20/2013***
+
 Sample application to demonstrate using QuickFix/n to connect to TT FIX Adapter
 
-The original version of this code was tested against [TT FIX Adapter](https://www.tradingtechnologies.com/fix-adapter) version 7.65.  The [QuickFix](http://quickfixengine.org) C++ DLL with .NET wrapper was used for this codebase.
+**Requirements**  
+Connection to [TT FIX Adapter](https://www.tradingtechnologies.com/fix-adapter) 
+The [QuickFix/n](http://quickfixn.org) .NET FIX engine.
+
 
 **TODO**
 - Password is hard Coded - make an application setting
