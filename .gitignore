@@ -1,5 +1,5 @@
 # Application specific ignores
-quickfix/
+#quickfix/
 # remove .sln file because it is specific to vs2012 only
 *.sln
 
