@@ -5,6 +5,8 @@ Sample application to demonstrate using QuickFix open source FIX engine to conne
 
 **QuickFix-C++ Branch**  
 Tested against [TT FIX Adapter](https://www.tradingtechnologies.com/fix-adapter) version 7.8.10.  
-Tested with Version 1.13.3 [QuickFix](http://quickfixengine.org) C++ DLL with .NET wrapper.  
+Tested with Version 1.13.3 binaries [QuickFix](http://quickfixengine.org) C++ DLL with .NET wrapper.  
+This version of the code does not use the QuickFix code genrator for custom data dictionaries.
 
-
+**quickfixn Branch**  
+This branch is a work in progress and is currently not functional with any version of TT FIX Adapter.

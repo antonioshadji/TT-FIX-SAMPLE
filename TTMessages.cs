@@ -373,7 +373,7 @@ namespace TT
                 QuickFix42.Logout lo = new QuickFix42.Logout();
 
                 //optional text field
-                lo.set(new QuickFix.Text("LOG OUT message sent"));
+                lo.set(new QuickFix.Text("Logout message sent"));
 
                 QuickFix.Session.sendToTarget(lo, priceSessionID);
                 QuickFix.Session.sendToTarget(lo, orderSessionID);

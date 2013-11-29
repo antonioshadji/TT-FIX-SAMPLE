@@ -200,14 +200,14 @@ namespace QuickFix
                 if (!_initiator.isLoggedOn())
                 {
                     _initiator.stop(true);
-                    _initiator.Dispose(true);
-                    
+                    _initiator.Dispose(true);                   
                 }
                 else
                 { Console.WriteLine("Initiator still logged in"); }
-                
+
                 updateDisplay("You have logged out.");
-                updateDisplay("Application will not function until you restart.");
+                updateDisplay("Application will not function until you restart."); 
+
             }
 
             public virtual void toAdmin(QuickFix.Message message, QuickFix.SessionID sessionID)

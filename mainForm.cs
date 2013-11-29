@@ -151,6 +151,8 @@ namespace FIX_TRADER
         {
             TT.SendMsg send = new TT.SendMsg();
             send.ttLogout();
+ 
+
         }
 
         private void btnNewOrderSingle_Click(object sender, EventArgs e)
