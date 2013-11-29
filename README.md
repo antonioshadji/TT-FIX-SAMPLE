@@ -2,10 +2,12 @@ TT-FIX-SAMPLE
 =============
 
 to clone:  
+```
   git clone
   cd TT_FIX_SAMPLE
   git submodule init
   git submodule update
+```
 
 Sample application to demonstrate using QuickFix open source FIX engine to connect to a TT FIX Adapter
 
